@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h2>Register for Events</h2>
+  <form id="regForm">
+    <label>Name: <input type="text" required></label><br>
+    <label>Email: <input type="email" required></label><br>
+    <label>Phone: <input type="tel" pattern="[0-9]{10}" required></label><br>
+    <label>College: <input type="text" required></label><br>
+    <p>Select Events:</p>
+    <input type="checkbox"> Hackathon
+    <input type="checkbox"> Dance
+    <input type="checkbox"> Debate <br><br>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="msg"></p>
+  <script src="js/script.js"></script>
+</body>
+</html>
